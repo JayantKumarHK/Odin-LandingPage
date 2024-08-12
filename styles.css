@@ -63,7 +63,7 @@ header li {
     padding: 0px 20px;
 }
 
-img {
+.inner2 img {
     max-height: 400px;
     max-width: 300px;
     margin-top: 30px;
@@ -84,6 +84,7 @@ img {
     text-align: center;
     padding: 20px;
     background-color: #F9FAF8;
+    height: fit-content;
 }
 
 .flexbox-container {
@@ -100,6 +101,12 @@ img {
     border-radius: 8px;
     margin-bottom: 10px;
 }
+.box img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
 
 p {
     color: #4a4a4a;
@@ -118,6 +125,9 @@ p {
 }
 .quote p{
     font-size: 1.2em;
+    color: #4a4a4a;
+    margin: 0;
+    max-width: 20em;
 }
 .quote h6{
     font-size: 1em;
