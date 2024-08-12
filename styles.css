@@ -28,10 +28,10 @@ body {
     font-size: 48px;
 }
 
-#Logo {
-    margin-right: auto;
-    font-size: 1.5em;
-    color: #F9FAF8;
+#Logo img {
+    max-width:100px ;
+    max-height: 100px;
+    border-radius: 50px;
 }
 
 header {
@@ -62,12 +62,14 @@ header li {
     display: inline-block;
     padding: 0px 20px;
 }
-
-.inner2 img {
-    max-height: 400px;
-    max-width: 300px;
-    margin-top: 30px;
-    border-radius: 20px;
+.inner2{
+    max-width: 250px;
+    max-height: 500px;
+}
+.inner2 a img {
+   width: 250px;
+   height: 250px;
+   border-radius: 20px;
 }
 
 #signup {
@@ -89,14 +91,15 @@ header li {
 
 .flexbox-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    gap: 100px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .box {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border: 2px solid #3182ce;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -107,12 +110,11 @@ header li {
     border-radius: inherit;
 }
 
-
 p {
     color: #4a4a4a;
     font-size: 14px;
     margin: 0;
-    max-width: 10em;
+    max-width: 18em;
 }
 .quote{
     background-color: #E5E7EB;
